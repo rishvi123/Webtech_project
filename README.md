@@ -36,7 +36,7 @@ This is a basic front end project.
 
 ## VISIT THE WEBPAGE
 
-[![Visit My HTML Page](CLICK HERE!)](https://github.com/rishvi123/Webtech_project/blob/main/home_page.html)
+[![Visit My HTML Page](CLICK HERE!)](https://rishvi123.github.io/Webtech_project/home_page.html)
 
 
 
