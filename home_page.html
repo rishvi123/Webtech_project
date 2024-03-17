@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale1.0">
+    <meta http-equiv="X-UA-compatible " content="ie-edge">
+    <title> THIS IS A GYM WEBSITE</title>
+</head> 
+<style>
+    body{
+        background-image: url('bg.jpg');
+        margin: 0px;
+        color: white;
+        padding: 0px;
+        overflow: hidden;
+    }
+    .left{
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        text-align: center;
+
+    }
+    .left img{
+        width: 100px;
+        margin: 10px;
+        padding: 0px;
+    }
+    .mid{
+            display: block;
+            position: absolute;
+            top: 0; 
+            left: 50%; 
+            transform: translateX(-50%); 
+            
+     
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 22px;
+        display: inline-block;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li {
+        display: inline-block;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 32px 23px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color: grey;
+    }
+    .btn{
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 3px 4px;
+        border-color: gray;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: gray;
+    }
+    .container{
+        margin: 2px 2px;
+        width: 30%;
+        padding: 140px 200px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: x-large;
+
+    }
+    .bottom{
+        margin: 2px 2px;
+        width: 30%;
+        padding-left: 900px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: x-large;
+    }
+    .text1 {
+  animation: fadeIn 1s ease-in-out; /* Adjust the duration as needed */
+    }
+    @keyframes fadeIn {
+  from {
+    opacity: 0; /* Start with 0 opacity (invisible) */
+  }
+  to {
+    opacity: 1; /* End with 1 opacity (fully visible) */
+  }
+ }
+ .text2{
+    animation: fadeIn 5s ;
+ }
+ @keyframes fadeIn {
+  from {
+    opacity: 0; /* Start with 0 opacity (invisible) */
+  }
+  to {
+    opacity: 1; /* End with 1 opacity (fully visible) */
+  }
+}
+ 
+   
+</style>
+<body>
+    <header class="header">
+        <div class="mid">
+            <ul class="navbar">
+            <li><a href="home_page.html">HOME</a></li> 
+            <li><a href="services.html">SERVICES</a></li> 
+            <li><a href="about_us.html">JOIN</a></li>     
+            </ul>
+         </div>
+         <div class="left">
+            <img src="logo.png">
+         <div>RISHVI FITNESS</div>
+         </div>
+         <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+         </div>
+    </header>
+    <div class="container">
+       <h2 class="text1"> WELCOME TO THE RISHVI'S FITNESS CENTER </h2>
+    </div>
+    <footer class="footer">
+        <div class="bottom">
+            <h2 class="text2">JOIN THE GYM TODAY...</h2>
+        </div>
+    </footer>
+    
+</body>
+</html>
