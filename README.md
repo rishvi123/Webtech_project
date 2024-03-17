@@ -34,6 +34,11 @@ This is a basic front end project.
 
 **Client**- HTML, CSS, JAVASCRIPT
 
+## VISIT MY WEBPAGE
+
+[![Visit My HTML Page](Click here!)](https://rishvi123.github.io/Webtech_project/home_page.html)
+
+
 
 ## Usage/Examples
 This is a form validation component from my project
@@ -56,3 +61,5 @@ alert("Form submitted successfully!");
 return true;
 }
 </script>
+
+
