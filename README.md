@@ -34,6 +34,11 @@ This is a basic front end project.
 
 **Client**- HTML, CSS, JAVASCRIPT
 
+## VISIT THE WEBPAGE
+
+[![Visit My HTML Page](CLICK HERE!)](https://github.com/rishvi123/Webtech_project/blob/main/home_page.html)
+
+
 
 
 
