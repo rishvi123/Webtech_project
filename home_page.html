@@ -105,8 +105,27 @@
     opacity: 1; /* End with 1 opacity (fully visible) */
   }
 }
+    @media screen and (max-width: 768px) {
+            .navbar li {
+                float: none;
+            }
+            
+            .left, .right {
+                position: static;
+                text-align: center;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            .container {
+                padding: 50px;
+            }
+            
+            .bottom {
+                padding: 20px;
+            }
+        }
  
-   
 </style>
 <body>
     <header class="header">
